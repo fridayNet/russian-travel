@@ -1,0 +1,62 @@
+.places {
+    margin-top: 92px;
+}
+
+.place {
+    margin: auto;
+    display: flex;
+    width: 984px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.kurskaya-kosa{
+    margin-top: 0;
+}
+
+.places__title {
+    width: calc(50% - 20px);
+    font-size: 72px;
+    line-height: 76px;
+    font-weight: 900;
+}
+.places__links {
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 20px);
+    justify-content: flex-end;
+}
+.url {
+    color: #AAAAAA;
+    font-size: 12px;
+    line-height: 20.4px;
+    font-weight: 400;
+}
+.places__link{
+    color: #fff;
+    margin-top: 12px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    transition: opacity 0.4s;
+}
+.places__link:hover{
+    opacity: 0.8;
+}
+.places__image{
+   
+    width: 460px;
+    height: 460px;
+    margin-top: 48px;
+}
+.places__text {
+    width: calc(50% - 20px);
+    margin-top: 48px;
+    font-size: 18px;
+    line-height: 29.34px;
+    font-weight: 400;
+}
+
+.places__text_first{
+    margin-bottom: 26px;
+}
