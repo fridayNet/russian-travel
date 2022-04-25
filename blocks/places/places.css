@@ -5,7 +5,7 @@
 .place {
     margin: auto;
     display: flex;
-    width: 984px;
+    max-width: 984px;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 80px;
@@ -59,4 +59,125 @@
 
 .places__text_first{
     margin-bottom: 26px;
+}
+
+@media screen and (max-width: 1280px){
+    .places {
+    margin-left: 48px;
+    margin-right: 48px;
+    }
+    .places__title {
+        width: calc( 50% - 16px);
+    }
+    .places__image {
+        width: calc( 50% - 16px);
+        min-width: 40px;
+        width: calc( 50% - 16px);
+        }
+    .places__text {
+        width: calc( 50% - 16px);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .places {
+        margin-left: 24px;
+        margin-right: 24px;
+        }
+     .places__title {
+         width: calc( 50% - 14px);
+         font-size: 42px;
+         line-height: 46px;
+        }
+    .places__image {
+        width: calc( 50% - 14px);
+        min-width: 340px;
+        height: calc( 50% - 14px);
+        }
+    .places__text {
+        width: calc( 50% - 14px);
+        font-size: 16px;
+        line-height: 26.08px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .places{
+        display: flex;
+        flex-direction: column;
+    }
+    .places__title {
+        margin: auto;
+        width: calc(100% - 32px);
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .places__links{
+        margin: auto;
+        width: calc(100% - 32px);
+        margin-top: 32px;
+    }
+    .places__image{
+        margin: auto;
+        width: calc(100% - 32px);
+        height: auto;
+        margin-top: 32px;
+    }
+    .places__text{
+        margin: auto;
+        width: calc(100% - 32px);
+        margin-top: 32px;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .places{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .places__title {
+        margin: auto;
+        width: calc(100% - 32px);
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .places__links{
+        margin: auto;
+        width: calc(100% - 32px);
+        margin-top: 32px;
+    }
+    .places__image{
+        margin: auto;
+        width: 100%;
+        height: auto;
+        margin-top: 32px;
+    }
+    .places__text{
+        margin: auto;
+        width: calc(100% - 32px);
+        margin-top: 32px;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+
+
+    }
 }
