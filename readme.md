@@ -1,8 +1,5 @@
-# my trird project - "Russian travel"
-## Автор: Nikolaev Gleb
-
-
-#
+# My trird project - "Russian travel"
+## Author: Nikolaev Gleb
 
 ### Project description: 
 
