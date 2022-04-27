@@ -37,49 +37,6 @@
     }
 }
 
-.header__logo {
-    display: flex;
-    width: 176px;
-    height: 52px;
-    z-index: 1;
-}
-@media screen and (max-width: 465px) {
-    .header__logo {
-        width: 142px;
-        height: 42px;
-    }
-}
 
-.header__links {
-    display: flex;
-}
-.header__link {
-    display: flex;
-    text-decoration: none;
-    color: #FFF;
-    justify-content: center;
-    align-items: center;
-    width: 29px;
-    height: 28px;
-    margin: 18px 9px 0 9px;
-    transition: opacity 0.4s;
-}
-@media screen and (max-width: 465px) {
-    .header__link {
-     font-family: Inter;
-     font-size: 18px;
-     font-weight: 400;
-     line-height: 20px;
-     letter-spacing: 0em;
-    }
-}
-.header__link_lang_ru{
-    text-decoration: underline;
-}
-.header__link_lang_en{
-    margin-right: 0;
-}
-.header__link:hover {
-    opacity: 0.8;
-}
+
 

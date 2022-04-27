@@ -1,0 +1,28 @@
+.gallery__photo {
+    width: 100%;
+}
+@media screen and (min-width:1280px) {
+    .gallery__photo {
+        min-height: 213px;
+    }
+}
+@media screen and (max-width:1280px) {
+    .gallery__photo {
+        min-height: 225px;
+    }
+}
+@media screen and (max-width:1024px) {
+    .gallery__photo {
+        min-height: 264px;
+    }
+}
+@media screen and (max-width:768px) {
+    .gallery__photo {
+        min-height: 264px;
+    }
+}
+@media screen and (max-width:465px) {
+    .gallery__photo {
+        min-height: 216px;
+    }
+}

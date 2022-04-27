@@ -1,6 +1,6 @@
 .page {
     margin: auto;
-    font-family: 'Inter', Arial, sans-serif;
+    font-family:'Inter-Light','sans-serif';
     background-color: #2A2C2F;
     color: #FFF;
   }
@@ -9,6 +9,7 @@
     margin: 0;
   }
   h1,h2,h3,h4,h5 {
+    font-family:'Inter-Black', 'sans-serif';
     padding: 0;
     margin: 0;
   }

@@ -1,0 +1,9 @@
+.cover__link {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+   text-align: center;
+    z-index: 1;
+   }

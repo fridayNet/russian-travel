@@ -23,51 +23,5 @@
         margin-left: 16px;
     }
 }
-.footer__link{
-    margin-bottom: 24px;
-}
-@media  screen and (max-width:768px) {
-    .footer__link {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-.footer__links {
-text-decoration: none;
-color: #fff;
-margin-right: 18px;
-font-size: 16px;
-line-height: 18px;
-font-weight: 400;
-transition: opacity 0.4s;
-}
-@media  screen and (max-width:768px) {
-    .footer__links {
-        margin-bottom: 32px;
-        font-family: Inter;
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0em;
-        text-align: left;
-    }
-}
-.footer__links:hover {
-    opacity: 0.8;
-}
-
-.signature {
-    font-size: 14px;
-    line-height: 16px;
-    font-weight: 400;
-}
-@media  screen and (max-width:768px) {
-    .signature {
-        margin-top: 16px;
-        line-height: 14px;
-        margin-bottom: 24px;
-    }
-}
 
 
