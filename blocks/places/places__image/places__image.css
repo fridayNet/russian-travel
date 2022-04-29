@@ -7,7 +7,7 @@
     .places__image {
         width: calc( 50% - 16px);
         min-width: 40px;
-        width: calc( 50% - 16px);
+        height: calc( 50% - 16px);
         }
 }
 @media screen and (max-width: 1024px) {
