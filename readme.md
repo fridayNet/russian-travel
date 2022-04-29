@@ -17,3 +17,5 @@ This project is part of [Yandex rate](https://academy.yandex.ru "Yandex practitu
 5. Usage grid
 6. Methodology BEM
 7. Addition fonts
+
+Project - https://fridaynet.github.io/russian-travel/index.html
