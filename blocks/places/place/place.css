@@ -1,0 +1,16 @@
+.place {
+    margin: auto;
+    display: flex;
+    max-width: 984px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+@media screen and (max-width: 768px){
+    .place {
+        margin-top: 50px;
+    }
+}
+.place_number_one {
+    margin-top: 0px;
+}

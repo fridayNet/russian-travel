@@ -1,0 +1,12 @@
+.signature {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+}
+@media  screen and (max-width:768px) {
+    .signature {
+        margin-top: 16px;
+        line-height: 14px;
+        margin-bottom: 24px;
+    }
+}
